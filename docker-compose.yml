@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aulaaspnetcore:
+    image: aulaaspnetcore
+    build:
+      context: ./AulaAspNetCore
+      dockerfile: Dockerfile
